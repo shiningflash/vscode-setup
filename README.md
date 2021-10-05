@@ -1,6 +1,6 @@
 ## VS-Code Setup
 
-[settings.py](https://github.com/shiningflash/vscode-setup/blob/main/README.md) file
+[settings.py](https://github.com/shiningflash/vscode-setup/blob/main/settings.json) file
 
 #### Theme
 
@@ -24,8 +24,8 @@ Moreover, C++, Python, Javascript and what need.
 
 #### References
 
-1. Visual Studio Official Website - https://code.visualstudio.com/
-2. Fira Code Font - https://fonts.google.com/specimen/Fira+Code
-3. VS Code Shortcut Cheatsheet for Windows - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
-4. VS Code Shortcut Cheatsheet for Linux - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
-5. VS Code Shortcut Cheatsheet for MacOS - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+1. [Visual Studio Official Website](https://code.visualstudio.com/)
+2. [Fira Code Font](https://fonts.google.com/specimen/Fira+Code)
+3. [VS Code Shortcut Cheatsheet for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+4. [VS Code Shortcut Cheatsheet for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
+5. [VS Code Shortcut Cheatsheet for MacOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
