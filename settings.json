@@ -1,0 +1,100 @@
+{
+  // auto save
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+
+  "window.zoomLevel": 2,
+
+  // editor
+  "editor.fontSize": 14,
+  // download Firacode from here: https://fonts.google.com/specimen/Fira+Code
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.sideBar.location": "left",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+
+  // cursor
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+
+  // config related to code formatting
+  // download prettier and eslint extesions
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+
+  //terminal
+  "terminal.integrated.confirmOnExit": "always",
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "normal",
+  // download Firacode from here: https://fonts.google.com/specimen/Fira+Code
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  "workbench.iconTheme": "vscode-icons", // download the extension
+
+  // C++ setup
+  "C_Cpp.default.compilerPath": "${default}",
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "code-runner.clearPreviousOutput": true,
+  "C_Cpp.default.browse.path": [],
+  "workbench.colorTheme": "Dracula",
+  "C_Cpp.updateChannel": "Insiders",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+
+  // frontend and HTML setup
+  "html.suggest.angular1": true,
+  "html.suggest.ionic": true,
+  "html.suggest.html5": true,
+  "html.autoClosingTags": true,
+  "editor.linkedEditing": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+
+  "[html]": {
+    "editor.foldingStrategy": "indentation"
+  },
+
+  "django.snippets.exclude": ["cms", "wagtail"],
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
